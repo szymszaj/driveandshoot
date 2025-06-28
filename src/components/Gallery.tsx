@@ -142,7 +142,6 @@ const Gallery = () => {
             </div>
           </div>
 
-          {/* Navigation Buttons */}
           <button
             onClick={prevImage}
             className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-all"
@@ -157,7 +156,6 @@ const Gallery = () => {
           </button>
         </div>
 
-        {/* Thumbnail Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {filteredImages.map((image, index) => (
             <Card

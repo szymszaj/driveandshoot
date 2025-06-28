@@ -8,6 +8,11 @@ const Hero = () => {
 
   const slides = [
     {
+      title: "Witaj na mojej stronie",
+      subtitle: "wsiadaj do przodu i jedziemy razem!",
+      image: "/bannerRudi.png",
+    },
+    {
       title: "Profesjonalna Fotografia Motoryzacyjna",
       subtitle: "Uwieczniam piękno i moc każdego pojazdu",
       image: "/image/1.jpg",
