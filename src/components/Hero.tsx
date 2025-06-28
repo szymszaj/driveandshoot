@@ -10,17 +10,17 @@ const Hero = () => {
     {
       title: "Profesjonalna Fotografia Motoryzacyjna",
       subtitle: "Uwieczniam piękno i moc każdego pojazdu",
-      image: "public/cars/1.jpg",
+      image: "public/image/1.jpg",
     },
     {
       title: "Sesje Zdjęciowe Premium",
       subtitle: "Twój samochód zasługuje na najlepsze zdjęcia",
-      image: "public/cars/2.jpg",
+      image: "public/image/2.jpg",
     },
     {
       title: "Artystyczne Ujęcia Motoryzacyjne",
       subtitle: "Każdy detal ma znaczenie",
-      image: "public/cars/3.jpg",
+      image: "public/image/3.jpg",
     },
   ];
 

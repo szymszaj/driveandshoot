@@ -25,8 +25,6 @@ const Footer = () => {
     { name: "Usługi", href: "#services" },
     { name: "Galeria", href: "#gallery" },
     { name: "Kontakt", href: "#contact" },
-    { name: "O mnie", href: "#about" },
-    { name: "Blog", href: "#blog" },
   ];
 
   const socialLinks = [
