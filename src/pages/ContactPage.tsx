@@ -3,6 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import AnimatedTypingText from "@/components/AnimatedTypingText/AnimatedTypingText";
+import "@/components/AnimatedTypingText/animated-typing.css";
 
 const ContactPage = () => {
   return (
@@ -31,23 +33,19 @@ const ContactPage = () => {
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
                   O Mnie
                 </h2>
-                <p className="text-gray-300 mb-6 leading-relaxed">
-                  Jestem profesjonalnym fotografem motoryzacyjnym z ponad
+                <AnimatedTypingText
+                  text="  Jestem profesjonalnym fotografem motoryzacyjnym  z ponad
                   2-letnim doświadczeniem w branży. Moja pasja do samochodów
                   połączona z miłością do fotografii pozwala mi tworzyć
                   wyjątkowe ujęcia, które podkreślają piękno i charakter każdego
-                  pojazdu.
-                </p>
-                <p className="text-gray-300 mb-6 leading-relaxed">
-                  Specjalizuję się w sesjach zdjęciowych aut, fotografii
+                  pojazdu.  Specjalizuję się w sesjach zdjęciowych aut, fotografii
                   eventowej oraz tworzeniu materiałów promocyjnych dla firm z
                   branży motoryzacyjnej. Każda sesja to dla mnie wyzwanie i
-                  możliwość stworzenia czegoś unikalnego.
-                </p>
-                <p className="text-gray-300 mb-8 leading-relaxed">
-                  Gwarantuję profesjonalną obsługę, terminowość oraz najwyższą
-                  jakość wykonanych zdjęć. Zapraszam do współpracy!
-                </p>
+                  możliwość stworzenia czegoś unikalnego. Gwarantuję profesjonalną obsługę, terminowość oraz najwyższą
+                  jakość wykonanych zdjęć. Zapraszam do współpracy!   "
+                  className="text-gray-300 mb-6 leading-relaxed"
+                  speed={33}
+                />
               </div>
 
               <div className="space-y-6">
