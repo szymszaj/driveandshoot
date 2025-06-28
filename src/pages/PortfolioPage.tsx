@@ -12,7 +12,7 @@ const PortfolioPage = () => {
     {
       id: 1,
       title: "Porsche 911 GT3 RS - Tor Poznań",
-      image: "public/image/1.jpg",
+      image: "/image/1.jpg",
       description:
         "Sesja zdjęciowa kultowego Porsche 911 GT3 RS na torze wyścigowym w Poznaniu. Dynamiczne ujęcia podkreślające sportowy charakter samochodu w naturalnym środowisku.",
       location: "Tor Poznań",
@@ -22,7 +22,7 @@ const PortfolioPage = () => {
       id: 2,
       title: "BMW M4 Competition - Sesja nocna",
       image:
-        "public/image/10.jpg",
+        "/image/10.jpg",
       description:
         "Spektakularna sesja nocna BMW M4 Competition z wykorzystaniem profesjonalnego oświetlenia. Gra świateł i cieni podkreśla agresywną stylistykę tego niemieckiego sportera.",
       location: "Warszawa",
@@ -32,7 +32,7 @@ const PortfolioPage = () => {
       id: 3,
       title: "Audi RS6 Avant - Lifestyle Session",
       image:
-        "public/image/4.jpg",
+        "/image/4.jpg",
       description:
         "Elegancka sesja lifestyle z Audi RS6 Avant. Połączenie luksusowego kombi z codziennym użytkowaniem, pokazujące wszechstronność tega wyjątkowego pojazdu.",
       location: "Kraków",
@@ -42,7 +42,7 @@ const PortfolioPage = () => {
       id: 4,
       title: "Mercedes-AMG GT R - Studio Session",
       image:
-        "public/image/2.jpg",
+        "/image/2.jpg",
       description:
         "Profesjonalna sesja studyjna Mercedes-AMG GT R. Kontrolowane oświetlenie pozwoliło na uchwycenie każdego detalu tego wyjątkowego supersamochodu z Affalterbach.",
       location: "Studio Warszawa",
@@ -52,7 +52,7 @@ const PortfolioPage = () => {
       id: 5,
       title: "Ferrari 488 GTB - Sesja w górach",
       image:
-        "public/image/3.jpg",
+        "/image/3.jpg",
       description:
         "Niezapomniana sesja Ferrari 488 GTB na tle malowniczych górskich krajobrazów. Kontrast między włoską elegancją a dziką naturą tworzył magiczne ujęcia.",
       location: "Tatry",
@@ -62,7 +62,7 @@ const PortfolioPage = () => {
       id: 6,
       title: "Lamborghini Huracán - Event Coverage",
       image:
-        "public/image/9.jpg",
+        "/image/9.jpg",
       description:
         "Relacja z ekskluzywnego eventu Lamborghini. Dynamiczne ujęcia Huracána w akcji, pokazujące moc i temperament tego włoskiego byka w naturalnym środowisku.",
       location: "Event Warszawa",
@@ -72,7 +72,7 @@ const PortfolioPage = () => {
       id: 7,
       title: "McLaren 720S - Artystyczna sesja",
       image:
-        "public/image/11.jpg",
+        "/image/11.jpg",
       description:
         "Artystyczna interpretacja McLaren 720S z wykorzystaniem nietypowych kątów i kompozycji. Futurystyczny design samochodu w nowoczesnej oprawie wizualnej.",
       location: "Gdańsk",
@@ -82,7 +82,7 @@ const PortfolioPage = () => {
       id: 8,
       title: "Aston Martin DB11 - Sesja klasyczna",
       image:
-        "public/image/12.jpg",
+        "/image/12.jpg",
       description:
         "Elegancka sesja Aston Martin DB11 podkreślająca brytyjską klasę i rzemiosło. Każde ujęcie celebruje dziedzictwo marki i ponadczasową elegancję tego GT.",
       location: "Poznań",
@@ -92,7 +92,7 @@ const PortfolioPage = () => {
       id: 9,
       title: "Nissan GT-R - Track Day Session",
       image:
-        "public/image/13.jpg",
+        "/image/13.jpg",
       description:
         "Intensywna sesja Nissan GT-R podczas Track Day. Ujęcia w ruchu pokazujące legendarne możliwości 'Godzilli' na torze wyścigowym.",
       location: "Tor Silesia Ring",
@@ -102,7 +102,7 @@ const PortfolioPage = () => {
       id: 10,
       title: "Ford Mustang Shelby - American Muscle",
       image:
-        "public/image/17.jpg",
+        "/image/17.jpg",
       description:
         "Sesja celebrująca amerykański muscle car - Ford Mustang Shelby. Surowa moc i charakterystyczny dźwięk V8 uchwycone w serii dramatycznych ujęć.",
       location: "Wrocław",
