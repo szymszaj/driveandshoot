@@ -123,7 +123,6 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/* Main Slider */}
         <div className="relative mb-12">
           <div className="relative h-96 md:h-[500px] rounded-lg overflow-hidden">
             <img
