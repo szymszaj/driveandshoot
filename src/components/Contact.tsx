@@ -65,7 +65,6 @@ const Contact = () => {
           ))}
         </div>
 
-        {/* CTA Section */}
         <div className="text-center">
           <div className="inline-block bg-gradient-to-r from-red-600 to-red-800 p-1 rounded-xl">
             <div className="bg-black px-12 py-8 rounded-xl">
