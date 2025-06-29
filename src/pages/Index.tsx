@@ -1,8 +1,4 @@
 
-import { useState, useEffect } from "react";
-import { Car, Camera, Mail, Phone, MapPin, ChevronDown, Star } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
