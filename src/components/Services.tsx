@@ -1,4 +1,3 @@
-
 import { Camera, Car, Award, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -7,45 +6,75 @@ const Services = () => {
     {
       icon: <Car className="h-12 w-12 text-red-600" />,
       title: "Sesje Zdjęciowe Aut",
-      description: "Profesjonalne sesje fotograficzne samochodów - od klasycznych po sportowe. Każdy detal uwieczniony w perfekcji.",
-      features: ["Zdjęcia studyjne", "Sesje plenerowe", "Fotografia detali", "Obróbka RAW"]
+      description:
+        "Profesjonalne sesje fotograficzne samochodów - od klasycznych po sportowe. Każdy detal uwieczniony w perfekcji.",
+      features: [
+        "Zdjęcia studyjne",
+        "Sesje plenerowe",
+        "Fotografia detali",
+        "Obróbka RAW",
+      ],
     },
     {
       icon: <Camera className="h-12 w-12 text-red-600" />,
       title: "Fotografia Eventowa",
-      description: "Dokumentacja wydarzeń motoryzacyjnych, pokazów samochodowych, rajdów i spotkań miłośników motoryzacji.",
-      features: ["Eventy motoryzacyjne", "Pokazy samochodowe", "Rajdy i wyścigi", "Spotkania klubowe"]
+      description:
+        "Dokumentacja wydarzeń motoryzacyjnych, pokazów samochodowych, rajdów i spotkań miłośników motoryzacji.",
+      features: [
+        "Eventy motoryzacyjne",
+        "Pokazy samochodowe",
+        "Rajdy i wyścigi",
+        "Spotkania klubowe",
+      ],
     },
     {
       icon: <Award className="h-12 w-12 text-red-600" />,
       title: "Zdjęcia Produktowe",
-      description: "Profesjonalne zdjęcia części samochodowych, akcesoriów i produktów motoryzacyjnych dla firm i sklepów.",
-      features: ["Części samochodowe", "Akcesoria tuningowe", "Produkty motoryzacyjne", "Katalogi firm"]
+      description:
+        "Profesjonalne zdjęcia części samochodowych, akcesoriów i produktów motoryzacyjnych dla firm i sklepów.",
+      features: [
+        "Części samochodowe",
+        "Akcesoria tuningowe",
+        "Produkty motoryzacyjne",
+        "Katalogi firm",
+      ],
     },
     {
       icon: <Users className="h-12 w-12 text-red-600" />,
       title: "Sesje Lifestyle",
-      description: "Sesje łączące pasję do motoryzacji z lifestyle'em. Zdjęcia właścicieli z ich samochodami w naturalnych sceneriach.",
-      features: ["Portrety z autem", "Sesje rodzinne", "Lifestyle motoryzacyjny", "Sesje tematyczne"]
-    }
+      description:
+        "Sesje łączące pasję do motoryzacji z lifestyle'em. Zdjęcia właścicieli z ich samochodami w naturalnych sceneriach.",
+      features: [
+        "Portrety z autem",
+        "Sesje rodzinne",
+        "Lifestyle motoryzacyjny",
+        "Sesje tematyczne",
+      ],
+    },
   ];
 
   return (
-    <section id="services" className="py-20 bg-gradient-to-b from-black to-gray-900">
+    <section
+      id="services"
+      className="py-20 bg-gradient-to-b from-black to-gray-900"
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-red-400 bg-clip-text text-transparent">
             Moje Usługi
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Specjalizuję się w fotografii motoryzacyjnej, oferując pełen zakres usług 
-            dla miłośników samochodów i firm z branży automotive
+            Specjalizuję się w fotografii motoryzacyjnej, oferując pełen zakres
+            usług dla miłośników samochodów i firm z branży automotive
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="bg-gray-800/50 border-gray-700 hover:border-red-600/50 transition-all duration-300 group hover:scale-105">
+            <Card
+              key={index}
+              className="bg-gray-800/50 border-gray-700 hover:border-red-600/50 transition-all duration-300 group hover:scale-105"
+            >
               <CardContent className="p-6 text-center">
                 <div className="mb-4 flex justify-center group-hover:scale-110 transition-transform">
                   {service.icon}
@@ -58,7 +87,10 @@ const Services = () => {
                 </p>
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
-                    <li key={idx} className="text-sm text-gray-400 flex items-center justify-center">
+                    <li
+                      key={idx}
+                      className="text-sm text-gray-400 flex items-center justify-center"
+                    >
                       <span className="w-2 h-2 bg-red-600 rounded-full mr-2"></span>
                       {feature}
                     </li>
