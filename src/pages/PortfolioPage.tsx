@@ -21,8 +21,7 @@ const PortfolioPage = () => {
     {
       id: 2,
       title: "BMW M4 Competition - Sesja nocna",
-      image:
-        "/image/10.jpg",
+      image: "/image/10.jpg",
       description:
         "Spektakularna sesja nocna BMW M4 Competition z wykorzystaniem profesjonalnego oświetlenia. Gra świateł i cieni podkreśla agresywną stylistykę tego niemieckiego sportera.",
       location: "Warszawa",
@@ -31,8 +30,7 @@ const PortfolioPage = () => {
     {
       id: 3,
       title: "Audi RS6 Avant - Lifestyle Session",
-      image:
-        "/image/4.jpg",
+      image: "/image/4.jpg",
       description:
         "Elegancka sesja lifestyle z Audi RS6 Avant. Połączenie luksusowego kombi z codziennym użytkowaniem, pokazujące wszechstronność tega wyjątkowego pojazdu.",
       location: "Kraków",
@@ -41,8 +39,7 @@ const PortfolioPage = () => {
     {
       id: 4,
       title: "Mercedes-AMG GT R - Studio Session",
-      image:
-        "/image/2.jpg",
+      image: "/image/2.jpg",
       description:
         "Profesjonalna sesja studyjna Mercedes-AMG GT R. Kontrolowane oświetlenie pozwoliło na uchwycenie każdego detalu tego wyjątkowego supersamochodu z Affalterbach.",
       location: "Studio Warszawa",
@@ -51,8 +48,7 @@ const PortfolioPage = () => {
     {
       id: 5,
       title: "Ferrari 488 GTB - Sesja w górach",
-      image:
-        "/image/3.jpg",
+      image: "/image/3.jpg",
       description:
         "Niezapomniana sesja Ferrari 488 GTB na tle malowniczych górskich krajobrazów. Kontrast między włoską elegancją a dziką naturą tworzył magiczne ujęcia.",
       location: "Tatry",
@@ -61,8 +57,7 @@ const PortfolioPage = () => {
     {
       id: 6,
       title: "Lamborghini Huracán - Event Coverage",
-      image:
-        "/image/9.jpg",
+      image: "/image/9.jpg",
       description:
         "Relacja z ekskluzywnego eventu Lamborghini. Dynamiczne ujęcia Huracána w akcji, pokazujące moc i temperament tego włoskiego byka w naturalnym środowisku.",
       location: "Event Warszawa",
@@ -71,8 +66,7 @@ const PortfolioPage = () => {
     {
       id: 7,
       title: "McLaren 720S - Artystyczna sesja",
-      image:
-        "/image/11.jpg",
+      image: "/image/11.jpg",
       description:
         "Artystyczna interpretacja McLaren 720S z wykorzystaniem nietypowych kątów i kompozycji. Futurystyczny design samochodu w nowoczesnej oprawie wizualnej.",
       location: "Gdańsk",
@@ -81,8 +75,7 @@ const PortfolioPage = () => {
     {
       id: 8,
       title: "Aston Martin DB11 - Sesja klasyczna",
-      image:
-        "/image/12.jpg",
+      image: "/image/12.jpg",
       description:
         "Elegancka sesja Aston Martin DB11 podkreślająca brytyjską klasę i rzemiosło. Każde ujęcie celebruje dziedzictwo marki i ponadczasową elegancję tego GT.",
       location: "Poznań",
@@ -91,8 +84,7 @@ const PortfolioPage = () => {
     {
       id: 9,
       title: "Nissan GT-R - Track Day Session",
-      image:
-        "/image/13.jpg",
+      image: "/image/13.jpg",
       description:
         "Intensywna sesja Nissan GT-R podczas Track Day. Ujęcia w ruchu pokazujące legendarne możliwości 'Godzilli' na torze wyścigowym.",
       location: "Tor Silesia Ring",
@@ -101,8 +93,7 @@ const PortfolioPage = () => {
     {
       id: 10,
       title: "Ford Mustang Shelby - American Muscle",
-      image:
-        "/image/17.jpg",
+      image: "/image/17.jpg",
       description:
         "Sesja celebrująca amerykański muscle car - Ford Mustang Shelby. Surowa moc i charakterystyczny dźwięk V8 uchwycone w serii dramatycznych ujęć.",
       location: "Wrocław",
@@ -175,7 +166,6 @@ const PortfolioPage = () => {
               </div>
             </div>
 
-            {/* Navigation Arrows */}
             <button
               onClick={prevImage}
               className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all"
@@ -190,7 +180,6 @@ const PortfolioPage = () => {
             </button>
           </div>
 
-          {/* Thumbnail Grid */}
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
             {portfolioSessions.map((session, index) => (
               <Card
@@ -225,7 +214,6 @@ const PortfolioPage = () => {
             ))}
           </div>
 
-          {/* Call to Action */}
           <div className="text-center">
             <div className="bg-gradient-to-r from-red-600 to-red-800 p-1 rounded-lg inline-block">
               <div className="bg-black px-8 py-6 rounded-lg">
