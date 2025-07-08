@@ -14,7 +14,7 @@ const PortfolioPage = () => {
       title: "Porsche 911 GT3 RS - Tor Poznań",
       image: "/image/1.jpg",
       description:
-        "Sesja zdjęciowa kultowego Porsche 911 GT3 RS na torze wyścigowym w Poznaniu. Dynamiczne ujęcia podkreślające sportowy charakter samochodu w naturalnym środowisku.",
+        "Samochód na zdjęciu wyróżnia się specjalnymi niebieskimi felgami oraz panelami maski i dachu wykonanymi z włókna węglowego, co podkreśla dążenie do redukcji masy. To skoncentrowana na torze wersja 911, zaprojektowana z myślą o maksymalnej wydajności zarówno na drodze, jak i na torze.\n\nSilnik:\n- 4,0-litrowy wolnossący bokser\n- 525 KM (518 KM)\n- 9000 obr./min. czerwona linia",
       location: "Tor Poznań",
       year: "2024",
     },
