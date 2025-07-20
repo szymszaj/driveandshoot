@@ -14,90 +14,27 @@ const PortfolioPage = () => {
       title: "Porsche 911 GT3 RS - Tor Poznań",
       image: "/image/1.jpg",
       description:
-        "Samochód na zdjęciu wyróżnia się specjalnymi niebieskimi felgami oraz panelami maski i dachu wykonanymi z włókna węglowego, co podkreśla dążenie do redukcji masy. To skoncentrowana na torze wersja 911, zaprojektowana z myślą o maksymalnej wydajności zarówno na drodze, jak i na torze.\n\nSilnik:\n- 4,0-litrowy wolnossący bokser\n- 525 KM (518 KM)\n- 9000 obr./min. czerwona linia",
+        "Porsche 911 GT3 RS to skoncentrowana na torze wersja kultowego 911, zaprojektowana z myślą o maksymalnej wydajności zarówno na drodze, jak i na torze. Samochód na zdjęciu wygląda, jakby miał specjalne niebieskie felgi oraz panele maski i dachu wykonane z włókna węglowego, co jest częścią środków mających na celu zmniejszenie masy.\n\nSilnik:\n- 4,0-litrowy wolnossący silnik typu bokser o pojemności 6 litrów\n- 525 KM (518 KM)\n- 9000 obr./min. czerwona linia",
       location: "Tor Poznań",
       year: "2024",
     },
     {
       id: 2,
-      title: "BMW M4 Competition - Sesja nocna",
+      title: "BMW E30 M3 Coupé (1986–1991)",
       image: "/image/10.jpg",
       description:
-        "Spektakularna sesja nocna BMW M4 Competition z wykorzystaniem profesjonalnego oświetlenia. Gra świateł i cieni podkreśla agresywną stylistykę tego niemieckiego sportera.",
-      location: "Warszawa",
+        "Pierwszy w historii model M3, wyprodukowany w celu homologacji BMW do wyścigów samochodów turystycznych Grupy A. Samochód ten zyskał popularność dzięki pudełkowatemu designowi, poszerzonym nadkolom, wyjątkowym panelom nadwozia (prawie każdy panel zewnętrzny różnił się od tego w zwykłym E30) i rodowodowi samochodu sportowego..",
+      location: "",
       year: "2024",
     },
     {
       id: 3,
-      title: "Audi RS6 Avant - Lifestyle Session",
+      title: "",
       image: "/image/4.jpg",
       description:
-        "Elegancka sesja lifestyle z Audi RS6 Avant. Połączenie luksusowego kombi z codziennym użytkowaniem, pokazujące wszechstronność tega wyjątkowego pojazdu.",
-      location: "Kraków",
+        "Pierwszy w historii model M3, wyprodukowany w celu homologacji BMW do wyścigów samochodów turystycznych Grupy A. Samochód ten zyskał popularność dzięki pudełkowatemu designowi, poszerzonym nadkolom, wyjątkowym panelom nadwozia (prawie każdy panel zewnętrzny różnił się od tego w zwykłym E30) i rodowodowi samochodu sportowego..",
+      location: "Nowy Targ",
       year: "2024",
-    },
-    {
-      id: 4,
-      title: "Mercedes-AMG GT R - Studio Session",
-      image: "/image/2.jpg",
-      description:
-        "Profesjonalna sesja studyjna Mercedes-AMG GT R. Kontrolowane oświetlenie pozwoliło na uchwycenie każdego detalu tego wyjątkowego supersamochodu z Affalterbach.",
-      location: "Studio Warszawa",
-      year: "2023",
-    },
-    {
-      id: 5,
-      title: "Ferrari 488 GTB - Sesja w górach",
-      image: "/image/3.jpg",
-      description:
-        "Niezapomniana sesja Ferrari 488 GTB na tle malowniczych górskich krajobrazów. Kontrast między włoską elegancją a dziką naturą tworzył magiczne ujęcia.",
-      location: "Tatry",
-      year: "2023",
-    },
-    {
-      id: 6,
-      title: "Lamborghini Huracán - Event Coverage",
-      image: "/image/9.jpg",
-      description:
-        "Relacja z ekskluzywnego eventu Lamborghini. Dynamiczne ujęcia Huracána w akcji, pokazujące moc i temperament tego włoskiego byka w naturalnym środowisku.",
-      location: "Event Warszawa",
-      year: "2023",
-    },
-    {
-      id: 7,
-      title: "McLaren 720S - Artystyczna sesja",
-      image: "/image/11.jpg",
-      description:
-        "Artystyczna interpretacja McLaren 720S z wykorzystaniem nietypowych kątów i kompozycji. Futurystyczny design samochodu w nowoczesnej oprawie wizualnej.",
-      location: "Gdańsk",
-      year: "2023",
-    },
-    {
-      id: 8,
-      title: "Aston Martin DB11 - Sesja klasyczna",
-      image: "/image/12.jpg",
-      description:
-        "Elegancka sesja Aston Martin DB11 podkreślająca brytyjską klasę i rzemiosło. Każde ujęcie celebruje dziedzictwo marki i ponadczasową elegancję tego GT.",
-      location: "Poznań",
-      year: "2022",
-    },
-    {
-      id: 9,
-      title: "Nissan GT-R - Track Day Session",
-      image: "/image/13.jpg",
-      description:
-        "Intensywna sesja Nissan GT-R podczas Track Day. Ujęcia w ruchu pokazujące legendarne możliwości 'Godzilli' na torze wyścigowym.",
-      location: "Tor Silesia Ring",
-      year: "2022",
-    },
-    {
-      id: 10,
-      title: "Ford Mustang Shelby - American Muscle",
-      image: "/image/17.jpg",
-      description:
-        "Sesja celebrująca amerykański muscle car - Ford Mustang Shelby. Surowa moc i charakterystyczny dźwięk V8 uchwycone w serii dramatycznych ujęć.",
-      location: "Wrocław",
-      year: "2022",
     },
   ];
 
@@ -115,7 +52,6 @@ const PortfolioPage = () => {
     <div className="min-h-screen bg-black text-white">
       <Navigation />
 
-      {/* Hero Section */}
       <section className="pt-20 pb-16 bg-gradient-to-b from-black to-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -142,7 +78,6 @@ const PortfolioPage = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
 
-              {/* Image Info Overlay */}
               <div className="absolute bottom-8 left-8 right-8">
                 <div className="bg-black/60 backdrop-blur-md rounded-lg p-6">
                   <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
