@@ -58,10 +58,10 @@ const Hero = () => {
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
         <div className="animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-red-200 to-red-400 bg-clip-text text-transparent leading-tight">
+          <h1 className="text-xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-white via-red-200 to-red-400 bg-clip-text text-transparent leading-tight">
             {slides[currentSlide].title}
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl mb-2 text-gray-300 max-w-2xl mx-auto">
             {slides[currentSlide].subtitle}
           </p>
 
@@ -86,7 +86,7 @@ const Hero = () => {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-2 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="flex items-center justify-center mb-2">
                 <Star className="h-6 w-6 text-red-600 mr-2" />
