@@ -65,10 +65,8 @@ const PortfolioPage = () => {
         </div>
       </section>
 
-      {/* Main Portfolio Section */}
       <section className="py-16 bg-gray-900">
         <div className="container mx-auto px-4">
-          {/* Main Image Display */}
           <div className="relative mb-12">
             <div className="relative h-96 md:h-[600px] rounded-lg overflow-hidden">
               <img
