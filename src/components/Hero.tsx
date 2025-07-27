@@ -78,7 +78,7 @@ const Hero = () => {
             <Link to="/portfolio">
               <Button
                 size="lg"
-                variant="outline"
+                variant="ghost"
                 className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg"
               >
                 Zobacz Portfolio

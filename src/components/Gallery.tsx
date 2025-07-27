@@ -30,7 +30,7 @@ const Gallery = () => {
     },
     {
       id: 3,
-      src: "/image/3.jpg",
+      src: "/image/DETAL.jpg",
       category: "details",
       title: "Precyzja wykonania",
     },
@@ -42,13 +42,13 @@ const Gallery = () => {
     },
     {
       id: 5,
-      src: "/image/5.jpg",
+      src: "/image/DETAL_1.jpg",
       category: "details",
       title: "Detale wnętrza",
     },
     {
       id: 6,
-      src: "/image/11.jpg",
+      src: "/image/EVENT.jpg",
       category: "events",
       title: "Event motoryzacyjny",
     },
@@ -60,15 +60,9 @@ const Gallery = () => {
     },
     {
       id: 8,
-      src: "/image/10.jpg",
+      src: "/image/LIMUZYNA.jpg",
       category: "image",
       title: "Moc i elegancja",
-    },
-    {
-      id: 9,
-      src: "/image/10.jpg",
-      category: "events",
-      title: "Event motoryzacyjny",
     },
   ];
 
@@ -99,7 +93,6 @@ const Gallery = () => {
             motoryzacji
           </p>
 
-          {/* Category Filter */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             {categories.map((category) => (
               <Button
@@ -108,9 +101,6 @@ const Gallery = () => {
                   setCurrentCategory(category.id);
                   setCurrentImageIndex(0);
                 }}
-                variant={
-                  currentCategory === category.id ? "default" : "outline"
-                }
                 className={`${
                   currentCategory === category.id
                     ? "bg-red-600 hover:bg-red-700 text-white"
@@ -124,7 +114,7 @@ const Gallery = () => {
         </div>
 
         <div className="relative mb-12">
-          <div className="relative h-96 md:h-[500px] rounded-lg overflow-hidden">
+          <div className="relative h-96 md:h-[750px] rounded-lg overflow-hidden">
             <img
               src={filteredImages[currentImageIndex]?.src}
               alt={filteredImages[currentImageIndex]?.title}

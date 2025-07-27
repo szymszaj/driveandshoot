@@ -101,7 +101,7 @@ const ContactPage = () => {
                 <CardContent className="p-6 text-center">
                   <Phone className="h-12 w-12 text-red-600 mx-auto mb-4" />
                   <h3 className="text-xl font-bold text-white mb-2">Telefon</h3>
-                  <p className="text-gray-300">+48 123 456 789</p>
+                  <p className="text-gray-300">+48 889 352 917</p>
                 </CardContent>
               </Card>
 
@@ -135,17 +135,20 @@ const ContactPage = () => {
                     projektu
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button className="bg-red-600 hover:bg-red-700 text-white">
+                    <a
+                      href="tel:+48 889 352 917"
+                      className="inline-flex items-center justify-center bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+                    >
                       <Phone className="mr-2 h-4 w-4" />
                       Zadzwoń teraz
-                    </Button>
-                    <Button
-                      variant="outline"
-                      className="border-red-600 text-red-400 hover:bg-red-600 hover:text-white"
+                    </a>
+                    <a
+                      href="mailto:rudi_photographerr@wp.pl"
+                      className="inline-flex items-center justify-center border border-red-600 text-red-400 hover:bg-red-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                     >
                       <Mail className="mr-2 h-4 w-4" />
                       Napisz email
-                    </Button>
+                    </a>
                   </div>
                 </div>
               </div>
