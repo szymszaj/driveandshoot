@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import AmbassadorSpace from "./AmbassadorSpace";
 
 const Contact = () => {
   const contactInfo = [
@@ -65,7 +66,9 @@ const Contact = () => {
           ))}
         </div>
 
-        <div className="text-center">
+        <AmbassadorSpace />
+
+        <div className="text-center mt-8">
           <div className="inline-block bg-gradient-to-r from-red-600 to-red-800 p-1 rounded-xl">
             <div className="bg-black px-12 py-8 rounded-xl">
               <h3 className="text-2xl font-bold text-white mb-4">
