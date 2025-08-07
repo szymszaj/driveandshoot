@@ -9,7 +9,6 @@ const Footer = () => {
     "Zdjęcia produktowe",
     "Sesje lifestyle",
     "Fotografia rajdowa",
-    "Pokazy samochodowe",
   ];
 
   const quickLinks = [
